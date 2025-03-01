@@ -35,6 +35,6 @@
 / {
     chosen {
         zmk,physical-layout = &physical_layout0;
-        // Other chosen items
+        zephyr,display = &sh1106_sh1106_128x64;
     };
 };
