@@ -1,4 +1,4 @@
-#include "my_keyboard.dtsi"
+#include "kiba56.dtsi"
 
 &kscan0 {
     col-gpios
