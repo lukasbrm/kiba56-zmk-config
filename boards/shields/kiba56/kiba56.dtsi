@@ -1,5 +1,4 @@
-#include <dt-bindings/zmk/matrix_transform.h> 
-#include <boards/nice_nano_v2.overlay>
+#include <dt-bindings/zmk/matrix_transform.h>
 
 / {
     kscan0: kscan0 {
