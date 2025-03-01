@@ -1,0 +1,13 @@
+file_format: "1"
+id: kiba56
+name: kiba56
+type: shield
+url: https://github.com/lukasbrm/kiba56-zmk-config
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
+  - display
+siblings:
+  - kiba56_left
+  - kiba56_right
