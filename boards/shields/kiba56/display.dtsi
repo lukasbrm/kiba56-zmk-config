@@ -1,4 +1,4 @@
-&zmk_display {
+&display {
     status = "okay";
     
     display_layout {
