@@ -1,4 +1,6 @@
 #include "kiba56.dtsi"
+#include "display.dtsi"
+
 
 &zmk_display {
     status = "okay";
