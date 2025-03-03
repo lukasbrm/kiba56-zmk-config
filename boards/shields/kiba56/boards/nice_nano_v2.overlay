@@ -22,11 +22,11 @@
     status="okay";
 
     sh1106_sh1106_128x64: ssd1306@3c {
-		compatible = "solomon,ssd1306fb";
+		compatible = "solomon,sh1106";
 		reg = <0x3c>;
 		width = <128>;
 		height = <64>;
-		segment-offset = <2>;
+		segment-offset = <0>;
 		page-offset = <0>;
 		display-offset = <0>;
 		multiplex-ratio = <63>;

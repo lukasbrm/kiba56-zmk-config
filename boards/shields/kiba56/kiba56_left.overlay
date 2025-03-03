@@ -1,5 +1,9 @@
 #include "kiba56.dtsi"
 
+&zmk_display {
+    status = "okay";
+};
+
 &kscan0 {
     col-gpios
         = <&pro_micro 2 GPIO_ACTIVE_HIGH>

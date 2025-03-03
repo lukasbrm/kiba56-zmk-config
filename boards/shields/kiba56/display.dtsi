@@ -1,0 +1,30 @@
+#include <dt-bindings/zmk/display.h>
+
+&zmk_display {
+    status = "okay";
+    
+    display_layout {
+        compatible = "zmk,display-layout";
+        
+        children {
+            oled_label {
+                compatible = "zmk,display-label";
+                text = "ZMK Keyboard";
+                position = <32 0>;
+                font_size = <2>;
+            };
+            
+            oled_battery {
+                compatible = "zmk,display-battery";
+                position = <0 8>;
+                font_size = <2>;
+            };
+
+            oled_layer {
+                compatible = "zmk,display-layer";
+                position = <0 16>;
+                font_size = <2>;
+            };
+        };
+    };
+};
