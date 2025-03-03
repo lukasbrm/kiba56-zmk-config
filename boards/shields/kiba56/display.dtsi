@@ -1,5 +1,3 @@
-#include <dt-bindings/zmk/display.h>
-
 &zmk_display {
     status = "okay";
     
