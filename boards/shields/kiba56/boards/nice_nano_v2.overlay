@@ -21,7 +21,7 @@
     pinctrl-names = "default", "sleep";
     status="okay";
 
-    sh1106_sh1106_128x64: sh1106@3C {
+    sh1106_sh1106_128x64: sh1106@3c {
 		compatible = "solomon,sh1106fb";
 		reg = <0x3c>;
 		width = <128>;
