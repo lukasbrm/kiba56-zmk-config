@@ -3,3 +3,6 @@ config SHIELD_KIBA56_LEFT
 
 config SHIELD_KIBA56_RIGHT
     def_bool $(shields_list_contains,kiba56_right)
+
+config ZMK_DISPLAY
+    def_bool $(shields_list_contains,kiba56_left)
